@@ -37,11 +37,23 @@ const Layout = ({ children, title, description, image, path }: LayoutProps) => {
       <header className={styles.header}>
         <ul>
           <li>
-            <Link to="/">{meta.title}</Link>
+            <Link to="/" activeClassName="active">
+              {meta.title}
+            </Link>
           </li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>
+            <Link to="/contact" activeClassName="active">
+              Contact
+            </Link>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://github.com/davidschinteie/gatsby-blog-theme.git"
+            >
+              Source Code
+            </a>
+          </li>
         </ul>
       </header>
       <main className={styles.content}>{children}</main>

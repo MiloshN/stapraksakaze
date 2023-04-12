@@ -7,7 +7,19 @@ const config: GatsbyConfig = {
     description: "A Gatsby Blog Theme Starter using TypeScript and CSS Modules",
     image: "",
   },
-  plugins: ["gatsby-plugin-react-helmet"],
+  plugins: [
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "images",
+        path: `${__dirname}/src/images`,
+      },
+    },
+  ],
 };
 
 export default config;
