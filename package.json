@@ -1,0 +1,28 @@
+{
+  "name": "gatsby_blog_theme",
+  "version": "1.0.0",
+  "description": "Gatsby theme blog starter",
+  "author": "David Schinteie",
+  "keywords": [
+    "gatsby",
+    "blog",
+    "theme",
+    "starter"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidschinteie/gatsby-blog-theme.git"
+  },
+  "dependencies": {
+    "gatsby": "5.7.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
