@@ -1,6 +1,6 @@
 ---
 title: Building a Blazing-Fast Website with Gatsby
-date: 2023-04-12
+date: 2023-03-12
 tags: ["gatsby", "web-development", "javascript"]
 author: John Doe
 ---

@@ -1,9 +1,11 @@
 ---
 title: The Adventure in the Enchanted Forest
-date: 2023-04-12
+date: 2023-04-10
 tags: ["story", "fantasy", "adventure"]
 author: Jane Smith
 ---
+
+![Alice in the enchanted forest](./adventure-image-alice.jpg)
 
 Once upon a time, in a land far, far away, there was a young adventurer named Alice. She had always been fascinated by stories of mythical creatures and hidden treasures. One day, she set out on a journey to explore the rumored enchanted forest that lay beyond the mountains.
 
@@ -26,6 +28,8 @@ Finally, the fairies led Alice to a secluded grove where a magnificent tree stoo
 Alice reached out and plucked one of the golden apples, and to her amazement, it transformed into a key. She approached the tree and inserted the key into a hidden keyhole, and the tree split open, revealing a hidden chamber filled with untold riches and ancient artifacts.
 
 ## A Lesson Learned
+
+![Alice in the enchanted forest](./adventure-alice-forest.jpg)
 
 As Alice marveled at the treasure before her, she realized that the true treasure she had discovered was not the wealth, but the journey itself. She had learned the value of courage, perseverance, and friendship. With a heart full of gratitude, Alice bid farewell to the fairies and left the enchanted forest, forever changed by her adventure.
 

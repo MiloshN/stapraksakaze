@@ -1,6 +1,6 @@
 ---
 title: My Example Blog Post
-date: 2023-04-12
+date: 2023-02-12
 tags: ["example", "markdown", "blog"]
 author: John Doe
 ---
