@@ -5,8 +5,6 @@ tags: ["gatsby", "web-development", "javascript"]
 author: John Doe
 ---
 
-# Building a Blazing-Fast Website with Gatsby
-
 In this tutorial, we will explore how to build a high-performance website using Gatsby, a popular static site generator built with React. Gatsby allows developers to create lightning-fast websites with a great developer experience. Let's dive in!
 
 ## Prerequisites

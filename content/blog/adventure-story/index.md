@@ -5,8 +5,6 @@ tags: ["story", "fantasy", "adventure"]
 author: Jane Smith
 ---
 
-# The Adventure in the Enchanted Forest
-
 Once upon a time, in a land far, far away, there was a young adventurer named Alice. She had always been fascinated by stories of mythical creatures and hidden treasures. One day, she set out on a journey to explore the rumored enchanted forest that lay beyond the mountains.
 
 ## Into the Woods
