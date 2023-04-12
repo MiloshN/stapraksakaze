@@ -9,6 +9,7 @@ import JamstackLogo from "../images/svg/jamstackLogo";
 import EditIcon from "../images/svg/editIcon";
 import LighthouseLogo from "../images/svg/lighthouseLogo";
 import * as styles from "../styles/home.module.css";
+import { Link, graphql, useStaticQuery } from "gatsby";
 
 const features = [
   {
@@ -30,6 +31,27 @@ const features = [
 ];
 
 const IndexPage = () => {
+  const data = useStaticQuery(graphql`
+    query GetBlogPosts {
+      allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
+        nodes {
+          excerpt
+          frontmatter {
+            date(formatString: "MMMM DD YYYY")
+            author
+            title
+          }
+          timeToRead
+          fields {
+            slug
+          }
+        }
+      }
+    }
+  `);
+
+  const posts = data.allMarkdownRemark.nodes;
+
   return (
     <Layout>
       <div className={styles.logoContainer}>
@@ -42,14 +64,35 @@ const IndexPage = () => {
       <h1>Static CMS with Gatsby on Netlify</h1>
       <h2>Blazing Fast Blog with Gatsby.js</h2>
 
-      <div className="features">
+      <div className={styles.features}>
         {features.map(({ text, icon: Icon }) => (
-          <div className="feature" key={text}>
+          <div className={styles.feature} key={text}>
             {Icon && <Icon height={24} width={24} />}
             <h4>{text}</h4>
           </div>
         ))}
       </div>
+
+      {posts.length === 0 && (
+        <p className={styles.noPosts}>There are no posts yet</p>
+      )}
+      {posts.map((post, id) => (
+        <div className={styles.postPreview} key={id}>
+          <h3>
+            <span className={styles.titleContainer}>
+              <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
+            </span>
+          </h3>
+
+          {post.frontmatter.author.length > 0 && (
+            <div className={styles.authors}>By: {post.frontmatter.author}</div>
+          )}
+          {post.frontmatter.date && (
+            <div className={styles.posted}>Posted: {post.frontmatter.date}</div>
+          )}
+          {post.excerpt && <p>{post.excerpt}</p>}
+        </div>
+      ))}
     </Layout>
   );
 };
