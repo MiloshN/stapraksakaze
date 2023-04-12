@@ -21,11 +21,13 @@
     "url": "git+https://github.com/davidschinteie/gatsby-blog-theme.git"
   },
   "dependencies": {
+    "@staticcms/app": "^1.2.14",
     "@types/react-helmet": "6.1.6",
     "gatsby": "5.7.0",
     "gatsby-plugin-image": "3.8.0",
     "gatsby-plugin-react-helmet": "6.8.0",
     "gatsby-plugin-sharp": "5.8.1",
+    "gatsby-plugin-static-cms": "^1.1.2",
     "gatsby-remark-images": "7.8.0",
     "gatsby-remark-prismjs": "7.8.0",
     "gatsby-source-filesystem": "5.8.0",

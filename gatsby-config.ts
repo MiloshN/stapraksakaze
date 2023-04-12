@@ -40,6 +40,7 @@ const config: GatsbyConfig = {
         ],
       },
     },
+    "gatsby-plugin-static-cms",
   ],
 };
 
