@@ -57,6 +57,13 @@ const Layout = ({ children, title, description, image, path }: LayoutProps) => {
         </ul>
       </header>
       <main className={styles.content}>{children}</main>
+      <footer>
+        © {new Date().getFullYear()} - Built with
+        {` `} Gatsby, StaticCMS & Netlify by {` `}
+        <a href="https://www.gatsbyjs.comhttps://github.com/davidschinteie">
+          David Schinteie
+        </a>
+      </footer>
     </>
   );
 };
