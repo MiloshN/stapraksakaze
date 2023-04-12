@@ -29,7 +29,7 @@ This is a regular paragraph. It may include inline code `console.log("Hello, Wor
    1. Nested item 1
    2. Nested item 2
 
-![Image Alt Text](https://example.com/image.jpg "Image Title")
+![Image Alt Text](./astronaut-playing-basketball-with-cats.jpg)
 
 | Column 1 | Column 2 |
 | -------- | -------- |
