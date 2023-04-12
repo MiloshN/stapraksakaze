@@ -1,7 +1,12 @@
 import React from "react";
+import Layout from "../components/layout";
 
 const IndexPage = () => {
-  return <div>IndexPage</div>;
+  return (
+    <Layout>
+      <h1>Hello Frontend Masters!</h1>
+    </Layout>
+  );
 };
 
 export default IndexPage;
