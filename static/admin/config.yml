@@ -21,4 +21,5 @@ collections:
       - { label: "Author", name: "author", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["news"] }
       - { label: "Body", name: "body", widget: "markdown" }
