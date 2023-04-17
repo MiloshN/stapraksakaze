@@ -46,4 +46,6 @@ Blog: [https://davidschinteie.hashnode.dev/](https://davidschinteie.hashnode.dev
 
 Useful resources that I find helpful and would like to give credit to.
 
+- [Gatsby template for Static CMS](https://github.com/StaticJsCMS/static-cms-gatsby-netlify-template)
 - [Netlify CMS & Gatsby playlist](https://www.youtube.com/playlist?list=PL8arivBPQWw0ZfShoW1NgxOvjPkQkbjj8)
+- [NextJS project used for using this project style](https://vercel.com/templates/next.js/notion-blog)
