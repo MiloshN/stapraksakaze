@@ -7,34 +7,43 @@
   <p align="center">
     A Gatsby Blog Theme using TS
     <br />
-    <br />
-    <a href="https://famous-kheer-e6eeab.netlify.app/">View Demo</a>
+    <a href="https://gatsby-blog-theme.netlify.app/">View Demo</a>
   </p>
 </div>
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
 
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
+
+This is a basic blog template built with [Gatsby](https://www.gatsbyjs.com/) and [Static CMS](https://github.com/StaticJsCMS/static-cms).
+
+### Built With
+
+Netlify + StaticCMS + Gatsby = ❤
+
+## Getting started
+
+### Prerequisites
+
+1. [A git profile](https://github.com/signup)
+2. [A Netlify account](https://app.netlify.com/signup)
+
+### Installation
+
+Use the deploy button to get your own copy of the repository.
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/davidschinteie/gatsby-blog-theme)
+
+This will setup everything needed for running the CMS 😍
+
+## Contact
+
+[David Schinteie](https://www.linkedin.com/in/david-schinteie-0804ab95/)
+
+Blog: [https://davidschinteie.hashnode.dev/](https://davidschinteie.hashnode.dev/)
+
+## Acknowledgments
+
+Useful resources that I find helpful and would like to give credit to.
+
+- [Netlify CMS & Gatsby playlist](https://www.youtube.com/playlist?list=PL8arivBPQWw0ZfShoW1NgxOvjPkQkbjj8)
