@@ -15,7 +15,13 @@
 
 ## About The Project
 
-This is a basic blog template built with [Gatsby](https://www.gatsbyjs.com/) and [Static CMS](https://github.com/StaticJsCMS/static-cms).
+This is a minimalist blog template built with [Gatsby](https://www.gatsbyjs.com/) and [Static CMS](https://github.com/StaticJsCMS/static-cms) for a hassle-free blogging experience.
+
+Deploy it on Netlify at zero cost! 🤑
+
+Customize the user interface by easily tweaking the CSS and code in this repository. 👨‍💻
+
+If you're satisfied with the default setup, simply hit the 'Deploy to Netlify' button and start sharing your ideas effortlessly. 💪
 
 ### Built With
 
