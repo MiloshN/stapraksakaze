@@ -6,6 +6,9 @@ const config: GatsbyConfig = {
     title: "Šta praksa kaže?",
     description: "Šta praksa kaže? - Blog namenjen IT temama",
     image: "",
+    kewors: "",
+    robots: "index, follow",
+    type: "articles"
   },
   plugins: [
     "gatsby-plugin-react-helmet",

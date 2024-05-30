@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import * as styles from "../styles/home.module.css";
 import { Link, graphql, useStaticQuery } from "gatsby";
+import CBLogo from '../images/cblogo.webp';
 
 // const features = [
 //   {
@@ -48,7 +49,7 @@ const IndexPage = () => {
     <Layout>
       <div className={styles.logoContainer}>
         <p>Supported by:</p>
-        <a href="https://codebears.io/" target="_blank"><img width={80} height={80} src="https://codebears.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcode-bears-logo-simple-transparent.c6655c64.png&w=3840&q=75" /></a>
+        <a href="https://codebears.io/" target="_blank"><img width={80} height={80} src={CBLogo} alt="code bears logo" /></a>
       </div>
       <h1>Šta praksa kaže?</h1>
       <h2>Šta praksa kaže? - Blog namenjen IT temama</h2>
