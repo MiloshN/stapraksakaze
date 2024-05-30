@@ -59,6 +59,7 @@
   max-width: 600px;
   margin: 10px auto;
   border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 0 15px;
 }
 
 .postPreview:last-child {
