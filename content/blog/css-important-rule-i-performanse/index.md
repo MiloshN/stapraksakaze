@@ -22,7 +22,7 @@ I videli ste da ima "super moći" – nadjačava sve ostalo, i CSS "sluša" samo
 CSS ima svoju hijerarhiju stilizovanja HTML-a. Postoji razlika u CSS-u u tome da li se element stilizuje ciljajući element putem ID-a, klase, možda samog elementa ili u kombinaciji. Takođe, može biti bitno da li se CSS linija nalazi na početku ili na kraju fajla. Međutim, kada naiđe `!important`, sve ostalo pada u vodu.
 
 
-Dakle, `!important` rule gazi svo css stilizovanje, i browser slusa iskljucivo !important naredbe.
+Dakle, `!important` rule gazi svo css stilizovanje, i browser sluša iskljucivo !important naredbe.
 
 Primer:
 
