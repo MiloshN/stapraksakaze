@@ -14,7 +14,7 @@ const BlogPostTemplate = ({ data: { markdownRemark: post } }) => {
           <div className="authors">By: {post.frontmatter.author}</div>
         )}
         {post.frontmatter.date && (
-          <div className="posted">Posted: {post.frontmatter.date}</div>
+          <div className="posted">Posted: {post.frontmatter.date}.</div>
         )}
 
         <hr />
@@ -42,7 +42,7 @@ export const pageQuery = graphql`
       id
       frontmatter {
         author
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "DD.MM.YYYY")
         description
         title
       }

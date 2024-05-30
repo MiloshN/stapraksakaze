@@ -1,10 +1,10 @@
 import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
-  siteMetadata: {
+  siteMetadata: {        
     siteUrl: "https://gatsby-blog-theme-starter.netlify.app/",
-    title: "Gatsby Blog Theme Starter",
-    description: "A Gatsby Blog Theme Starter using TypeScript and CSS Modules",
+    title: "Šta praksa kaže?",
+    description: "Šta praksa kaže? - Blog namenjen IT temama",
     image: "",
   },
   plugins: [
