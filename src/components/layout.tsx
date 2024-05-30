@@ -43,7 +43,7 @@ const Layout = ({ children, title, description, image, path }: LayoutProps) => {
           </li>
           <li>
             <Link to="/contact" activeClassName="active">
-              Contact
+              Kontakt
             </Link>
           </li>
           <li>
@@ -51,18 +51,16 @@ const Layout = ({ children, title, description, image, path }: LayoutProps) => {
               target="_blank"
               href="https://github.com/davidschinteie/gatsby-blog-theme.git"
             >
-              Source Code
+              Tema 🙏
             </a>
           </li>
         </ul>
       </header>
       <main className={styles.content}>{children}</main>
       <footer>
-        © {new Date().getFullYear()} - Built with
-        {` `} Gatsby, StaticCMS & Netlify by {` `}
-        <a href="https://www.gatsbyjs.comhttps://github.com/davidschinteie">
-          David Schinteie
-        </a>
+        © {new Date().getFullYear()} - Built with 🤟 <small style={{
+          fontSize: '10px'
+        }}>(love)</small>
       </footer>
     </>
   );
